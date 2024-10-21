@@ -1,0 +1,77 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+venv.bak/
+bin/
+lib/
+lib64/
+include/
+scripts/
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore Django migrations
+**/migrations/*
+
+# If using SQLite database
+*.sqlite3
+
+# Ignore static and media files
+staticfiles/
+media/
+
+# Ignore local settings files (if you have any)
+settings_local.py
+local_settings.py
+
+# Ignore env files (for secrets)
+.env
+.env.*
+
+# Ignore IDE specific files (optional)
+.vscode/
+.idea/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore node_modules (if you are using JavaScript for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore compiled code or JS bundles
+*.min.js
+*.min.css
+*.map
+
+# Gunicorn and other deployment-related files
+gunicorn.sock
+
+# Ignore backups
+*.bak
+
+# Ignore Docker files and containers
+docker-compose.override.yml
+docker-compose.override.yaml
